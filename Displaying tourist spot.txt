@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spots</title>
+    <link rel="stylesheet" href="tourist.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:Red">Top Tourist Spots</h1>
+        <div class="tourist-spots">
+            
+            <div class="spot">
+                <img src="mahaballipuram.jpg" alt="Spot 1">
+                <h2>Mahabalipuram</h2>
+                <p>Location: Chengalpattu, TamilNadu</p>
+                <p>Mahabalipuram is a famous tourist destination in India, known for its Hindu monuments. The town is part of the Chennai Metropolitan Area and is a satellite town of Chennai.</p>
+            </div>
+            
+           
+            <div class="spot">
+                <img src="kodaikannal.jpg" alt="Spot 2">
+                <h2>Kodaikanal</h2>
+                <p>Location: Dindugal, TamilNadu</p>
+                <p>The princess of the hill stations, Kodaikanal lies at the summit of the Palani Hills, surrounded by thick forests. </p>
+            </div>
+            
+            
+            <div class="spot">
+                <img src="ooty.jpg" alt="Spot 3">
+                <h2>Ooty</h2>
+                <p>Location: Dindugal, TamilNadu</p>
+                <p>First on our list of must-visit places in Tamil Nadu is Ooty, the capital of the Nilgiris District. What makes Ooty a popular name among tourist spots and also among honeymoon destinations in Tamilnadu, is the nice and warm weather throughout the year!</p>
+            </div>
+            
+           
+            <div class="spot">
+                <img src="chennai.jpg" alt="Spot 4">
+                <h2>Chennai</h2>
+                <p>Location: Chennai, TamilNadu</p>
+                <p>Well, when we talk about Chennai, we know, you see a fast pace of life and hear Tamil film songs. Rest assured, you will enjoy both when you are here. Another exciting fact is, Chennai has a traditional attire as well, reflected in its temples and ancient monuments.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="kannyakumari.jpg" alt="Spot 5">
+                <h2>KannyaKumari</h2>
+                <p>Location: KanyaKumari, TamilNadu</p>
+                <p>The southernmost point of present India. Beautiful beaches, temples and monuments make the town famous. The town is also known for its distinct culture and friendly residents.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="hogenakal.jpeg" alt="Spot 6">
+                <h2>Hogenakkal Falls</h2>
+                <p>Location: Dharmapuri, TamilNadu</p>
+                <p>Hogenakkal Falls referred to as the "Niagara Falls of India," it is known for medicinal baths and hide boat rides, projecting itself as a major tourist attraction. Carbonatite rocks in this site are considered to be the oldest of its kind in South Asia and one of the oldest in the world.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="thanjavur.jpg" alt="Spot 7">
+                <h2>Thanjavur</h2>
+                <p>Location: Thanjavur, TamilNadu</p>
+                <p>Thanjavur known as Tanjore or the city of temples, Thanjavur has a lot of cultural value and is known for its famous Tanjore paintings, antiques .A place with immense cultural value, Thanjavur is quite famous for handicrafts, sarees.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="Madurai.jpg" alt="Spot 8">
+                <h2>Madurai</h2>
+                <p>Location: Madurai, TamilNadu</p>
+                <p>Madurai is famous for its temples, building style, and much more. Especially, Madurai Meenakshi Amman Temple is a magnificent temple in Tamilnadu.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="coonoor.jpg" alt="Spot 9">
+                <h2>Coonoor</h2>
+                <p>Location: Nilgiris, TamilNadu</p>
+                <p>Coonoor can be visited along with Ooty tour. Sim's Park, Lambs Rock, Dolphins Nose, St. Catherine Falls, and Law's falls are some popular tourist places.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="vallparai.jpg" alt="Spot 10">
+                <h2>Valparai</h2>
+                <p>Location: Coimbatore, TamilNadu</p>
+                <p>Valparai is a hill station in the south Indian state of Tamil Nadu. Nallamudi Viewpoint has vistas of the Anamalai Hills in the Western Ghats, and surrounding tea estates. </p>
+            </div>
+            
+            <div class="spot">
+                <img src="yercaud.jpg" alt="Spot 11">
+                <h2>Yercaud</h2>
+                <p>Location: Salem, TamilNadu</p>
+                <p>Yercaud is a hill station town in the south Indian state of Tamil Nadu. It lies in the Shevaroy Hills, known for their orange groves, and coffee, fruit and spice plantations.</p>
+            </div>
+            
+            <div class="spot">
+                <img src="velankanni.jpg" alt="Spot 12">
+                <h2>Velankanni</h2>
+                <p>Location: Nagapattinam, TamilNadu</p>
+                <p>Velankanni, is a Special Grade Panchayat Town in Nagapattinam district in the Indian state of Tamil Nadu. It lies on the Coromandel Coast of the Bay of Bengal, 350 km south of Chennai, 12 km south of Nagapattinam, and 33 km southeast of Thiruvarur. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+CSS file--->
+
+tourist.css
+
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tourist-spots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.spot {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.spot:hover {
+    transform: scale(1.05);
+}
+
+.spot img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.spot h2 {
+    color: #444;
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.spot p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
